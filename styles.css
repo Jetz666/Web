@@ -1,0 +1,168 @@
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Layout header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Layout main content */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Form Otentikasi */
+.auth-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-form button:hover {
+    background-color: #555;
+}
+
+/* Google Maps */
+.map-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Layout footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.customer-service-logo {
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+.contact-details {
+    color: white;
+    font-size: 1em;
+}
+
+/* Media Sosial */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h2 {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-logo {
+    max-width: 40px; /* Ukuran maksimum logo media sosial */
+    margin: 0 10px; /* Jarak antara ikon */
+    transition: transform 0.3s; /* Efek saat hover */
+}
+
+.social-logo:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.footer-container {
+    background-color: #222;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
